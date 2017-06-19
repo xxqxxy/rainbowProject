@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_3" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/include_top_2" />
+    
+        
+   <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/include_top2"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none" >
+	
+       <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+          >
+
+            <WebView
+                android:id="@+id/web_context"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:padding="15dip"
+                android:scrollbars="none"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+   
+        <include layout="@layout/load_dialog"/>
+        
+        </FrameLayout>
+    </ScrollView>
+  
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/cr_blue_5">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+          android:layout_marginLeft="8dp"
+		 android:layout_marginRight="8dp"
+		 
+		 >
+        
+        
+        <LinearLayout 
+             android:background="@drawable/bg_cricle7"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:padding="8dp"
+		       
+		        >
+		        <TextView 
+		            android:id="@+id/tv_one"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:textSize="12sp"
+		          android:textColor="@color/cr_white_2"
+		            android:text="回路编号"
+		            android:gravity="center"
+		            android:singleLine="true"
+		            android:ellipsize="middle"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            />
+		        
+		         <TextView 
+		             android:id="@+id/tv_two"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:textSize="12sp"
+		            android:textColor="@color/cr_white_2"
+		            android:text="回路名称"
+		            android:singleLine="true"
+		            android:ellipsize="middle"
+		             android:gravity="center"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            />
+		          <TextView 
+		              android:id="@+id/tv_three"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:textSize="12sp"
+		           android:textColor="@color/cr_white_2"
+		            android:text="开关名称"
+		            android:singleLine="true"
+		            android:ellipsize="middle"
+		             android:gravity="center"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            />
+		           <TextView 
+		               android:id="@+id/tv_four"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:textSize="12sp"
+		          android:textColor="@color/cr_white_2"
+		            android:text="电流"
+		            android:singleLine="true"
+		            android:ellipsize="middle"
+		             android:gravity="center"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            />
+		            <TextView 
+		                android:id="@+id/tv_five"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:textSize="12sp"
+		             android:textColor="@color/cr_white_2"
+		            android:text="有功功率"
+		            android:singleLine="true"
+		            android:ellipsize="middle"
+		             android:gravity="center"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            />
+		    </LinearLayout>
+        <ImageView 
+            android:layout_marginTop="-2dp"
+             android:layout_width="match_parent"
+             android:layout_height="0.5dp"
+             android:background="@color/cr_blue_7"/>
+    </LinearLayout>
+         
+  
+        
+</LinearLayout>

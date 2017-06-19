@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_3"
+    android:orientation="vertical" >
+    
+    
+    <include layout="@layout/include_top_2"/>
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+    <com.comutils.pulltorefresh.PullToRefreshListView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pl_site"
+       android:paddingBottom="24dp"
+       android:layout_marginBottom="20dp">
+        
+        
+    </com.comutils.pulltorefresh.PullToRefreshListView>
+    
+   	<include layout="@layout/load_dialog"/>
+        
+    </FrameLayout>
+    
+    
+
+</LinearLayout>

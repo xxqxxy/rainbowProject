@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/transparent"
+    android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"
+    android:padding="15dip" >
+
+     <LinearLayout  android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"
+      android:background="@drawable/cu_tv_bg2" >      
+     <TextView android:id="@+id/cu_tv_ttitle_tab" android:layout_height="wrap_content" android:layout_width="fill_parent"
+             android:textColor="@color/cu_cr_gray2" android:text="sdfdf" android:textSize="13sp"  android:visibility="gone"
+             android:gravity="center"  android:paddingTop="8dip"  android:paddingBottom="8dip"  />
+     <ImageView android:id="@+id/cu_iv_tab"  android:layout_width="fill_parent" android:layout_height="0.5dip" android:src="@color/cu_o_grey"  android:visibility="gone"/>     
+     <TextView android:id="@+id/cu_tv_photograph" android:layout_height="wrap_content" android:layout_width="fill_parent"
+             android:textColor="@android:color/black" android:text="@string/cu_tv_photograph" android:textSize="16sp"  android:background="@drawable/cu_tv_bg"
+             android:gravity="center"  android:paddingTop="15dip"  android:paddingBottom="15dip"  />
+    <ImageView  android:layout_width="fill_parent" android:layout_height="0.5dip" android:src="@color/cu_o_grey"/>
+    <TextView android:id="@+id/cu_tv_from_local" android:layout_height="wrap_content" android:layout_width="fill_parent"
+             android:textColor="@android:color/black" android:text="@string/cu_tv_map_from_local" android:textSize="16sp"   android:background="@drawable/cu_tv_bg"
+             android:gravity="center"  android:paddingTop="15dip"  android:paddingBottom="15dip" />
+    
+    </LinearLayout>        
+             
+     <TextView android:id="@+id/cu_tv_cancel" android:layout_height="wrap_content" android:layout_width="fill_parent"
+             android:textColor="@android:color/black" android:text="@string/cu_tv_cancel" android:textSize="16sp"    android:background="@drawable/cu_tv_bg2" 
+             android:gravity="center"  android:padding="10dip"   android:layout_marginTop="25dip" />
+</LinearLayout>

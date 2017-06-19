@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   
+    <color name="cr_yellow_2">#FFFF80</color>
+    <color name="cr_orange_3">#FF972F</color>
+    <color name="cr_red_2">#FF3333</color>
+    
+    
+    <color name="gray_7">#6C6C6C</color>
+    <color name="gray_5">#414141</color>
+    <color name="gray_4">#E0E0E0</color>
+    <color name="cr_white_1">#4F4849</color>
+    <color name="black">#4F4849</color>
+     <color name="gray_2">#B9B9B9</color>
+     <color name="gray_3">#E0E0E0</color>
+     <color name="cr_red">#ff00</color>
+     <color name="gray_1">#D9D9D9</color>
+     <color name="gray_6">#F2F2F2</color>
+    <color name="white">#ffffff</color>
+    <color name="cr_white_2">#4F4849</color>
+    <color name="cr_white_3">#C4E7FF</color>
+    <color name="cr_white_5">#FCFDFE</color>
+    <!--#4089BA  -->
+    <color name="cr_gray_1">#2D719E</color>
+    <color name="cr_gray_2">#8B9EAB</color>
+    <color name="cr_blue_1">#00ABFB</color>
+    <color name="cr_blue_2">#B0E4FF</color>
+    <color name="cr_blue_3">#027ED0</color>
+    <color name="cr_blue_4">#7ED6FF</color>
+    <color name="cr_blue_5">#005892</color>
+    <color name="cr_blue_6">#3381B7</color>
+    <color name="cr_blue_7">#1279BD</color>
+    <color name="cr_blue_8">#0075C2</color>
+    <color name="cr_blue_9">#1C96EA</color>
+    <color name="cr_blue_10">#0075C2</color>
+    <color name="cr_blue_11">#0366A8</color>
+    <color name="cr_green_1">#00BF97</color>
+    <color name="cr_gray_3">#AAB2BC</color>
+    
+    <color name="cr_blue_13">#BDE1FA</color>
+     <color name="cr_blue_12">#5B9DC9</color>
+    
+     <color name="cr_gray4">#787b83</color><!--重点 灰颜色  文字用 导航兰文字--> 
+   <color name="cr_orange_1">#E78558</color>
+     <color name="cr_orange_2">#FEB308</color>
+    
+        <color name="cr_gray1">#f6f6f6</color><!--主体背景色 灰色1--> 
+    <color name="cr_gray3">#E3E5E6</color><!--超淡点 灰颜色  线--> 
+    <color name="cr_yellow_1">#E9B42A</color>
+	<color name="cr_white_4" >#CDDAF2</color>
+	
+	
+	<color name="trans">#00000000</color>
+</resources>

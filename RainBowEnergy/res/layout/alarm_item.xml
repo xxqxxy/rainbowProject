@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_3">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/bg_cricle2" >
+    
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:id="@+id/tv_alarm_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_alarm_time"
+            android:text="2015-08-09 18:22:12"
+            android:textColor="@color/cr_green_1"
+            android:drawablePadding="2dp"
+            android:textSize="13sp"/>
+        
+        <TextView 
+            android:id="@+id/tv_alarm_content"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电力部110KV变压站，发生电压越线"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:lineSpacingExtra="3dp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+    </LinearLayout>
+    
+	<RelativeLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        >
+	    <ImageView 
+	        android:id="@+id/iv_more"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+	        android:src="@drawable/icon_look_more"/>
+	    
+	</RelativeLayout>
+</LinearLayout>
+</LinearLayout>

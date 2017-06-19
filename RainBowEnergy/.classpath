@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/jpush-android-2.1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/org.apache.http.legacy.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/hello_chart_1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/baidumapapi_base_v4_1_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/baidumapapi_map_v4_1_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/baidumapapi_search_v4_1_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/baidumapapi_util_v4_1_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/BaiduNaviSDK_3.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/glide-3.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/httpmime-4.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/locSDK_6.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/umeng-analytics-v5.6.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/gson-2.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/ComUtils/libs/EZOpenSDK.jar"/>
+	<classpathentry exported="true" kind="lib" path="/ComUtils/libs/jna.jar"/>
+	<classpathentry exported="true" kind="lib" path="/ComUtils/libs/HCNetSDK.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

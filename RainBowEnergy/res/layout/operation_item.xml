@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_3" >
+    
+    <LinearLayout 
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:background="@drawable/bg_cricle2" >
+        
+        <RelativeLayout 
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <ImageView 
+                android:id="@+id/iv_map"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/icon_df_head"
+                />
+            
+            <LinearLayout 
+                android:layout_marginLeft="24dp"
+                android:layout_toRightOf="@+id/iv_map"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+					android:layout_gravity="center_vertical"
+					android:gravity="center_vertical"                         
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginRight="8dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.0">
+                    
+                    <TextView 
+                        android:id="@+id/tv_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.0"
+                        android:layout_height="wrap_content"
+                        android:text="刘涛"
+                        android:ellipsize="middle"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"/>
+                    
+                <TextView 
+                    android:layout_weight="1.0"
+                    android:id="@+id/tv_state"
+                    android:layout_marginLeft="16dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="正在忙碌"
+                        android:singleLine="true"
+                        android:ellipsize="middle"
+                        android:textSize="16sp"
+                        android:textColor="@color/cr_orange_1"/>
+                        
+                    
+                </LinearLayout>
+                
+                
+                <LinearLayout 
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.0"></LinearLayout>
+                
+                 <TextView 
+                		android:id="@+id/tv_post"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="变压器检测员"
+                        android:textSize="16sp"
+                        android:textColor="@color/cr_white_2"/>
+            </LinearLayout>
+            
+            
+            <ImageView 
+                android:id="@+id/iv_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_select_normal"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+            
+        </RelativeLayout>
+        
+        
+       <ImageView 
+           android:id="@+id/iv_view"
+           android:layout_width="match_parent"
+           android:layout_height="0.5dp"
+           android:background="@color/gray_1"/>
+        
+        <TextView
+            android:id="@+id/tv_site" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="电力部110KV变压站，发生异常情况，正在处理中。"
+            android:textSize="16sp"
+            android:textColor="@color/cr_white_2"
+            android:paddingLeft="40dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="8dp"
+            android:lineSpacingExtra="3dp"
+            />
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

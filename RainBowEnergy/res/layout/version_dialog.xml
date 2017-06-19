@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:background="@drawable/bg_cricle1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dip" >
+
+        <TextView
+            android:id="@+id/tv_v_d_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/cr_white_2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_v_d_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/cr_white_2"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:src="@color/gray_5" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:padding="15dip"
+            android:text="@string/tv_vsion_do_next"
+            android:textColor="@color/cr_white_2"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="0.5dip"
+            android:layout_height="fill_parent"
+            android:src="@color/gray_5" />
+
+        <TextView
+            android:id="@+id/tv_yes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:padding="15dip"
+            android:text="@string/tv_vsion_do_now"
+            android:textColor="@color/cr_white_2"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

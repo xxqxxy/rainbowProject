@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cu_cr_gray">#424b5a</color><!--深灰色 --> 
+    <color name="cu_cr_gray2">#787b83</color><!--重点 灰颜色  文字用 导航兰文字4 -2--> 
+     <color name="cu_cr_gray3">#EDEDED</color><!--超淡点 灰颜色 间距用--> 
+    <color name="cu_cr_green">#22c064</color><!--绿色 -->
+    <color name="cu_cr_white">#FFFFFF</color><!--白色 -->
+   
+    <color name="cu_cr_black">#000000</color><!--黑色 --> 
+    <color name="cu_cr_black1">#1b1b1b</color><!--黑色  文字--> 
+    
+    <color name="cu_cr_blue1">#46a3c4</color>
+      
+     <color name="cu_o_grey">#eee</color><!--o灰色 --> 
+     
+     <color name="cu_actionsheet_blue">#037BFF</color>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+   android:background="@color/gray_6"
+   >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+         <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_weight="1.0"
+            android:src="@color/gray_1" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+         android:paddingRight="8dp"
+         android:paddingTop="16dp"
+         android:paddingBottom="8dp"
+         android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/iv_nmap"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="4dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_df_head"
+            />
+    
+	<LinearLayout 
+	     android:layout_marginTop="6dp"
+	     android:layout_marginLeft="4dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    
+	    <RelativeLayout
+	        
+	         android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        >
+	        <TextView 
+	            android:id="@+id/tv_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	           android:textSize="12sp"
+	           android:textColor="@color/black"
+	            android:text="运营人员小张"
+	            />
+	        
+	        <TextView 
+	            android:id="@+id/tv_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:text="2014-12-21 22:22:11"
+	            android:textSize="14sp"
+	            android:textColor="@color/black"
+	            />
+	    </RelativeLayout>
+	    
+	    <TextView 
+	        android:id="@+id/tv_content"
+	        android:layout_marginTop="16dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="16sp"
+	        android:textColor="@color/black"
+	        android:text="那是功率过低所出现的情况，还有很多情况"
+	        />
+	    
+	    
+	</LinearLayout>
+    </LinearLayout>    
+        
+</LinearLayout>

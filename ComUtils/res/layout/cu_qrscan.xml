@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cu_capture_containter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView android:id="@+id/cu_capture_preview" android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--  <ImageView
+        android:id="@+id/top_mask"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/scan_mask"
+        android:contentDescription="@string/app_name" />-->
+    <RelativeLayout android:id="@+id/cu_top_mask"  android:layout_width="match_parent"   android:layout_height="100dp"
+        android:layout_below="@id/cu_top_mask"  android:layout_alignParentTop="true"
+        android:background="@drawable/cu_scan_mask"  android:contentDescription="@string/app_name" >
+        <ImageView android:id="@+id/cu_iv_back" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:layout_marginLeft="30dip"
+        android:background="@drawable/cu_icon_code_cancel"  android:layout_centerVertical="true"/>
+        
+        <ImageView android:id="@+id/cu_iv_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"
+        android:background="@drawable/cu_icon_code_torch_off"  android:layout_centerVertical="true"   android:layout_marginRight="30dip"/>
+        
+        <TextView android:id="@+id/cu_tv_local_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:text="@string/cu_tv_album" android:textColor="@color/cu_cr_white" android:gravity="center" android:textSize="14sp"
+        android:background="@drawable/cu_barcode_local_pic_bg_normal"   android:layout_centerInParent="true"/>
+    </RelativeLayout>   
+    <RelativeLayout
+        android:id="@+id/cu_capture_crop_layout"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/cu_top_mask"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cu_capture"
+        android:contentDescription="@string/app_name" >
+
+        <ImageView
+            android:id="@+id/cu_capture_scan_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/cu_scan_line"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/cu_bottom_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/cu_capture_crop_layout"
+        android:background="@drawable/cu_scan_mask"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/cu_left_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/cu_bottom_mask"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/cu_top_mask"
+        android:layout_toLeftOf="@id/cu_capture_crop_layout"
+        android:background="@drawable/cu_scan_mask"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/cu_right_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/cu_bottom_mask"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/cu_top_mask"
+        android:layout_toRightOf="@id/cu_capture_crop_layout"
+        android:background="@drawable/cu_scan_mask"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cu_capture_crop_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/cu_tv_scan_tips"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

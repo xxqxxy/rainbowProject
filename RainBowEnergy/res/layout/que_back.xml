@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="@color/gray_3"
+    >
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+     <include 
+        layout="@layout/include_top_2"/>
+   
+     <FrameLayout 
+          android:layout_above="@+id/ll_foot"
+          android:layout_below="@+id/include_top2"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+     <com.comutils.pulltorefresh.PullToRefreshListView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_3"
+        android:id="@+id/pl_que"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="8dp"
+        ></com.comutils.pulltorefresh.PullToRefreshListView>
+     </FrameLayout>
+    <LinearLayout
+        android:id="@+id/ll_foot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_6"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1.0"
+            android:drawableLeft="@drawable/icon_pen"
+            android:hint="@string/tv_content_tab"
+            android:maxLength="100"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:background="@drawable/icon_send"
+            android:textColor="@color/cr_gray4"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:paddingBottom="7dip"
+            android:paddingLeft="8dip"
+            android:paddingRight="16dip"
+            android:paddingTop="7dip"
+            android:text="@string/tv_send"
+            android:textColor="@color/cr_blue_5"
+            android:textSize="16sp" />
+    </LinearLayout>
+    </RelativeLayout>
+   	
+    <include layout="@layout/load_dialog"/>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+	<include 
+	    layout="@layout/include_top_2"/>
+   <FrameLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       
+	<ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:scrollbars="none">
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical">
+	        
+	        
+	        <ImageView 
+	    android:layout_marginTop="40dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	      android:src="@drawable/icon_login_logo" 
+	    android:adjustViewBounds="true"
+	    android:layout_marginBottom="15dp"/>
+	    
+	<WebView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/wv_content"
+	    android:scrollbars="none"/>	
+	
+	        
+	    </LinearLayout>
+	    
+	</ScrollView>
+  	<include layout="@layout/load_dialog"/>
+	 </FrameLayout> 
+</LinearLayout>

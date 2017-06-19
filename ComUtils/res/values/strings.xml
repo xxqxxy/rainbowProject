@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">ComUtils</string>
+    <string name="app_cu_path">/sdcard/comutils/</string>
+    
+    <string name="cu_tv_complete">完成</string> 
+    <string name="cu_tv_map">图片</string>
+    <string name="cu_tv_map_all">所有图片</string>
+    <string name="cu_err_map_select_out_limit">选择图片数量超出限制数量</string>
+    
+    <string name="cu_tv_map_from_local">从相册选择</string> 
+    <string name="cu_tv_photograph">拍照照片</string> 
+    <string name="cu_tv_cancel">取&#160;&#160;&#160;&#160;&#160;&#160;消</string>
+    
+         <string name="cu_pushmsg_center_no_more_msg">已经到底啦</string>
+    <string name="cu_pushmsg_center_pull_up_text">松开加载更多</string>
+    <string name="cu_pushmsg_center_pull_down_text">下拉可以刷新</string>
+    <string name="cu_pushmsg_center_pull_release_text">松开获取更多</string>
+    <string name="cu_pushmsg_center_pull_down_update_time">最后更新时间 : </string>
+    <string name="cu_pushmsg_center_load_more_ongoing_text">正在加载中</string>
+    <string name="cu_xsearch_loading">正在加载中…</string>
+        <!-- 下拉刷新和上拉加载更多的文本 -->
+    <string name="cu_pull_to_refresh_header_hint_normal">@string/cu_pushmsg_center_pull_down_text</string>
+    <string name="cu_pull_to_refresh_header_hint_normal2">上拉可以刷新</string>
+    <string name="cu_pull_to_refresh_header_hint_ready">松开后刷新</string>
+    <string name="cu_pull_to_refresh_header_hint_loading">@string/cu_pushmsg_center_load_more_ongoing_text</string>
+    <string name="cu_pull_to_refresh_header_last_time">@string/cu_pushmsg_center_pull_down_update_time</string>
+    <string name="cu_pull_to_refresh_footer_hint_ready">松开载入更多</string>
+    <string name="cu_pull_to_refresh_refreshing_label">@string/cu_pull_to_refresh_header_hint_loading</string>
+    <string name="cu_pull_to_refresh_no_more_data">@string/cu_pushmsg_center_no_more_msg</string>
+    <string name="cu_pull_to_refresh_network_error">网络不给力，请检查网络</string>
+    
+    
+      <string name="cu_tv_images_indicator">%1$d/%2$d</string>
+     
+      <string name="cu_tv_cancel2">取消</string>
+      <string name="cu_tv_yes">确定</string>
+    <string name="cu_tv_sex">选择性别</string>
+    <string name="cu_tv_sex_men">男</string>
+    <string name="cu_tv_sex_women">女</string>
+      
+    <string name="cu_tv_area_tab">选择省市区</string>
+      
+    <string name="cu_tv_date_tab">选择日期</string>
+    <string-array name="cu_month_name">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    
+    <string name="cu_tv_album">相册</string> 
+    <string name="cu_tv_scan_tips">将二维码图片对准扫描框即可自动扫描</string>
+    
+    
+    <string name="cu_wxpay_app_tip">提示</string>
+    <string name="cu_wxpay_getting_prepayid">正在获取预支付订单...</string>
+    
+    <string name="cu_data_getting">数据获取中...</string>
+    
+</resources>

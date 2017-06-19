@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dip" android:id="@+id/ll_item"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"  android:orientation="horizontal" >
+    <ImageView  android:id="@+id/iv_amap"  android:layout_width="60dip" android:layout_height="60dip" 
+              android:adjustViewBounds="true"  android:layout_gravity="center_vertical" android:layout_marginRight="5dip"
+                android:background="@drawable/cu_icon_background"/>
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"      android:layout_gravity="center_vertical" > 
+         <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"  android:orientation="vertical" 
+           android:layout_toLeftOf="@+id/iv_select"   android:layout_centerVertical="true" >    
+             <TextView android:id="@+id/tv_fdname"  android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                 android:textSize="16sp" android:textColor="@color/cu_cr_black1" android:text="Chen sir" android:layout_gravity="center_vertical"
+                  android:gravity="center_vertical" android:singleLine="true" android:ellipsize="end"/>
+             <TextView android:id="@+id/tv_mapcount"  android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                 android:textSize="14sp" android:textColor="@color/cu_cr_gray2" android:text="Chen sir" android:layout_gravity="center_vertical"
+                  android:gravity="top"  />
+         </LinearLayout>
+         
+         
+         <ImageView  android:id="@+id/iv_select"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"
+              android:adjustViewBounds="true"  android:layout_centerVertical="true" android:layout_marginRight="5dip"  android:src="@drawable/cu_icon_ncountbg"
+              android:visibility="invisible"/>
+    </RelativeLayout> 
+    
+</LinearLayout>
